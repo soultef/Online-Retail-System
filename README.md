@@ -6,73 +6,49 @@ An enterprise-grade, full-stack online retail system built using Angular for the
 ### 🧑‍💼 User Functionality
 
 #### User Registration & Login (JWT Auth)
+  Profile Management
+  Secure Checkout Process
 
-Profile Management
+#### 🛒 Shopping Experience
+  Product Catalog with Search & Filter
+  Product Details Page
+  Add to Cart / Update Quantity / Remove
+  Checkout with Order Summary
 
-Secure Checkout Process
+#### 📦 Orders & Payments
+  Order History & Order Details
+  Payment Gateway Integration (Mock or Real)
+  Real-time Order Confirmation
 
-🛒 Shopping Experience
+#### 🧾 Admin Panel (Optional)
+  Product Management (CRUD)
+  Inventory Updates
+  Order Management Dashboard
 
-Product Catalog with Search & Filter
-
-Product Details Page
-
-Add to Cart / Update Quantity / Remove
-
-Checkout with Order Summary
-
-📦 Orders & Payments
-
-Order History & Order Details
-
-Payment Gateway Integration (Mock or Real)
-
-Real-time Order Confirmation
-
-🧾 Admin Panel (Optional)
-
-Product Management (CRUD)
-
-Inventory Updates
-
-Order Management Dashboard
-
-🧱 Tech Stack
-🎨 Frontend
+### 🧱 Tech Stack
+   #### 🎨 Frontend
 
 Angular
-
 Angular Routing, Services, Reactive Forms
-
 SCSS / Material UI or TailwindCSS
 
-🛠️ Backend Microservices
+#### 🛠️ Backend Microservices
 
-Node.js with Express.js or NestJS
-
+java Spring Boot
 RESTful APIs / gRPC (optional)
-
 MongoDB & PostgreSQL
-
 Redis (Optional – for caching)
-
 JWT Authentication
-
 Centralized API Gateway (Express.js or NestJS)
 
-⚙️ DevOps & Tools
+#### ⚙️ DevOps & Tools
+  Docker & Docker Compose
+  NGINX (for frontend hosting)
+  RabbitMQ or Kafka (optional – async messaging)
+  GitHub Actions (optional – CI/CD)
+  Postman or Swagger for API documentation
 
-Docker & Docker Compose
-
-NGINX (for frontend hosting)
-
-RabbitMQ or Kafka (optional – async messaging)
-
-GitHub Actions (optional – CI/CD)
-
-Postman or Swagger for API documentation
-
-📁 Folder Structure
+ ### 📁 Folder Structure
 online-retail-system/
 │
 ├── frontend-angular/           → Angular Single Page Application
