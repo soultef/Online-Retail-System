@@ -62,6 +62,18 @@ online-retail-system/
 ├── docker-compose.yml
 └── README.md
 
+### 🧩 Angular Frontend Features Breakdown
+| Page                  | Components                    | APIs Used                          |
+| --------------------- | ----------------------------- | ---------------------------------- |
+| Home                  | Product list, search/filter   | `GET /products`, `GET /categories` |
+| Product Details       | Product view, add to cart     | `GET /product/:id`, `POST /cart`   |
+| Cart                  | Cart summary, update quantity | `GET /cart`, `POST /checkout`      |
+| Checkout              | Address, payment form         | `POST /checkout`, `POST /payment`  |
+| Orders                | List of orders, order details | `GET /orders`, `GET /order/:id`    |
+| Auth (Login/Register) | Forms, token handling         | `POST /login`, `POST /register`    |
+| Admin (optional)      | Product CRUD                  | `POST/PUT/DELETE /products`        |
+
+
 🐳 Running Locally with Docker Compose
 1. Clone the Repository
 git clone https://github.com/your-username/online-retail-system.git
