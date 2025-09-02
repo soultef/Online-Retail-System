@@ -1,4 +1,4 @@
-#🛍️ Online Retail System — Full Stack Microservices Application
+🛍️ #Online Retail System — Full Stack Microservices Application
 
 An enterprise-grade, full-stack online retail system built using Angular for the frontend, and a set of backend microservices developed with Node.js, connected via an API Gateway. This system is containerized using Docker and orchestrated using Docker Compose — designed for scalability, modularity, and production-readiness.
 
